@@ -9,8 +9,8 @@ Desarrollar un sistema de permisos en SQL Server que permita asignar privilegios
 ### Modelos Implementados (Tablas en SQL Server)
 Para implementar la funcionalidad de permisos en SQL Server, se utilizaron las siguientes tablas dentro de la base de datos:
 
-- PermiUser: Esta tabla gestiona los permisos asignados a un usuario por entidad.
-- PermiRole: Esta tabla gestiona los permisos asignados a un rol por entidad.
-- PermiUserRecord: Esta tabla se encarga de asignar permisos a usuarios sobre registros específicos de una entidad.
-- PermiRoleRecord: Similar a PermiUserRecord, esta tabla asigna permisos a roles sobre registros específicos.
-- Permission: Define la combinatoria de permisos que pueden ser otorgados a usuarios o roles.
+- **PermiUser: Esta tabla gestiona los permisos asignados a un usuario por entidad.
+- **PermiRole: Esta tabla gestiona los permisos asignados a un rol por entidad.
+- **PermiUserRecord: Esta tabla se encarga de asignar permisos a usuarios sobre registros específicos de una entidad.
+- **PermiRoleRecord: Similar a PermiUserRecord, esta tabla asigna permisos a roles sobre registros específicos.
+- **Permission: Define la combinatoria de permisos que pueden ser otorgados a usuarios o roles.
