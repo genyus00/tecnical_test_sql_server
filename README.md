@@ -43,7 +43,7 @@ Cada una de estas entidades puede tener permisos específicos asociados, tanto a
 
 **Procedimiento Principal (GetUserPermissions):** Este procedimiento recibe dos parámetros: el ID del entitycatal y el ID del usuario en la compañia. Su propósito es devolver los permisos asignados al usuario, tanto a nivel de entidad como a nivel de registros dentro de la entidad. Los permisos siguen la jerarquía lógica de permisos: (1) Por Rol, (2) Por Usuario , (3) Por Registro. (determinado asi de acuerdo a video explicativo del objetivo final)
 
-**Insert**: Script pertinentes que evidencian la ejecución de los procedimientos realizados
+1. **Insert**: Script pertinentes que evidencian la ejecución de los procedimientos realizados
 
 2. **Scripts para Creación de Tablas:**
    - Scripts de creación de tablas: Se encuentra ubicados en la carpeta **`scripts_para_crear_tablas`**, estos contienen las sentencias `CREATE TABLE`.
