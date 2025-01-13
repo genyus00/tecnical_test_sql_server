@@ -4,9 +4,9 @@
 
 ### Parámetros:
 
-    • **@id_useco INT:** Identificador del usuario en la compañía.
-    
-    • **@id_entit INT:** Identificador de la entidad para la cual se están consultando los permisos.
+**@id_useco INT:** Identificador del usuario en la compañía.
+
+**@id_entit INT:** Identificador de la entidad para la cual se están consultando los permisos.
 
 ### Propósito: 
 Este procedimiento tiene como objetivo recuperar los permisos asignados a un usuario dentro de una compañía para una entidad específica. Los permisos son obtenidos desde diferentes niveles, tales como permisos específicos por usuario y registro, permisos por rol y registro, permisos a nivel de usuario para la entidad y permisos a nivel de rol para la entidad.
