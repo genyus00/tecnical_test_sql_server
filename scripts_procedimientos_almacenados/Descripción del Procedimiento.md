@@ -1,8 +1,8 @@
-Descripción del Procedimiento:
+#**Descripción del Procedimiento:**
 
-Nombre: dbo.GetPermissionsByUserAndEntity
+##**Nombre: dbo.GetPermissionsByUserAndEntity**
 
-Parámetros:
+##Parámetros:
 
 •	@id_useco INT: Identificador del usuario en la compañía.
 •	@id_entit INT: Identificador de la entidad para la cual se están consultando los permisos.
