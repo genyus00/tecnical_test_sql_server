@@ -51,3 +51,40 @@ En cada nivel, se consulta la tabla correspondiente (PermiUserRecord, PermiRoleR
 
 **Resultado:** El procedimiento retorna una lista de permisos para el usuario en la entidad especificada, considerando siempre el permiso con la menor prioridad disponible (según las prioridades definidas), incluyendo el detalle de las acciones permitidas y el tipo de origen de cada permiso.
 
+
+--------------------------------------------------------------------------
+               User       Role       Entity     Record   Include  Visible		
+--------------------------------------------------------------------------
+User Record : rodolfo - contador  - salarios  -  Reg10 -    Si     (S)
+ Rol Record :    -      contador  - salarios  -  Reg10 -    Si     (N) 
+       User : rodolfo - contador  - salarios  -    -   -    Si     (S) 
+        Rol :    -      contador  - salarios  -    -   -    Si     (N) 
+--------------------------------------------------------------------------
+		
+--------------------------------------------------------------------------
+               User       Role       Entity     Record   Include  Visible		
+--------------------------------------------------------------------------
+User Record :
+ Rol Record :    -      contador  - salarios  -  Reg10 -    Si  (S)
+       User : rodolfo - contador  - salarios  -    -   -    Si  (S)
+        Rol :    -      contador  - salarios  -    -   -    Si  (N)
+--------------------------------------------------------------------------
+		
+--------------------------------------------------------------------------
+               User       Role       Entity     Record   Include  Visible		
+--------------------------------------------------------------------------
+User Record :
+ Rol Record :
+       User : rodolfo - contador  - salarios  -    -   -    Si  (S)
+        Rol :    -      contador  - salarios  -    -   -    Si  (N)
+--------------------------------------------------------------------------
+		
+--------------------------------------------------------------------------
+               User       Role       Entity     Record   Include		
+--------------------------------------------------------------------------
+User Record :
+ Rol Record :
+       User :
+        Rol :    -      contador  - salarios  -    -   -    Si  (S)
+--------------------------------------------------------------------------
+
