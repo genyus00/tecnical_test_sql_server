@@ -50,7 +50,7 @@ Cada una de estas entidades puede tener permisos específicos asociados, tanto a
    - Procedimientos almacenados: Se encuentran ubicados en la carpeta **`scripts_procedimientos_almacenados`**, esta carpeta contine el procedimiento principal (GetUserPermissions).
 
 3. **Video Explicativo:**
-   - Se debe proporciona un **video explicativo** en el que se detalla:
+   - Se proporciona un **video explicativo** en el que se detalla:
      - La lógica detrás de los procedimientos almacenados y su implementación.
      - La estrategia utilizada para resolver el problema de permisos.
      - Cómo los scripts para la creación de tablas generan la estructura de la base de datos en SQL Server.  
